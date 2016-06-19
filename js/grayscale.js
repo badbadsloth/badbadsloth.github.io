@@ -35,3 +35,6 @@ $("a").mouseup(function(){
     $(this).blur();
 })
 
+$(document).ready(function() {
+    $("#lightgallery").lightGallery();
+});
